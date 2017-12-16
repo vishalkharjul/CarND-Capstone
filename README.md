@@ -1,5 +1,16 @@
 This is the project repo for the final project of the Udacity Self-Driving Car Nanodegree: Programming a Real Self-Driving Car. For more information about the project, see the project introduction [here](https://classroom.udacity.com/nanodegrees/nd013/parts/6047fe34-d93c-4f50-8336-b70ef10cb4b2/modules/e1a23b06-329a-4684-a717-ad476f0d8dff/lessons/462c933d-9f24-42d3-8bdc-a08a5fc866e4/concepts/5ab4b122-83e6-436d-850f-9f4d26627fd9).
 
+### Team - The Distracted
+
+<table>
+	<tr><th>Name</th><th>Github account</th></tr>
+	<tr><td>Khushnood Naqvi</td><td>https://github.com/khushn</td></tr>
+	<tr><td>Vishal Kharjul</td><td>https://github.com/vishalkharjul</td></tr>
+	<tr><td>Koichi Takabatake</td><td>https://github.com/vilion</td></tr>
+	<tr><td>Sylvain Chonavel</td><td>https://github.com/SylvainC123</td></tr>
+	<tr><td>Vincent Lee</td><td>https://github.com/tienchil</td></tr>
+</table>
+
 ### Native Installation
 
 * Be sure that your workstation is running Ubuntu 16.04 Xenial Xerus or Ubuntu 14.04 Trusty Tahir. [Ubuntu downloads can be found here](https://www.ubuntu.com/download/desktop).
@@ -29,6 +40,13 @@ Run the docker file
 ```bash
 docker run -p 4567:4567 -v $PWD:/capstone -v /tmp/log:/root/.ros/ --rm -it capstone
 ```
+
+### Anaconda alternative to docker
+We can also use Anaconda to have a container environment. This project needs python2. 
+So we create a conda environment called capstone as shown below:
+1. conda create -n capstone python=2.7.12 
+2. source activate conda
+3. Following which we can proceed with the 'pip install -r requirements.txt', shown below
 
 ### Usage
 
